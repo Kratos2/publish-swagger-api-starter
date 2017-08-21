@@ -17,7 +17,11 @@ import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
+/**
+ * 
+ * @author Mr.K
+ *
+ */
 @Configuration
 @EnableConfigurationProperties(PublishSwaggerProperties.class)
 public class EnablePublishSwaggerConfiguration implements ApplicationListener<ApplicationReadyEvent> {

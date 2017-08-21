@@ -2,6 +2,11 @@ package com.mrk.publish.swagger;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * 
+ * @author Mr.K
+ *
+ */
 @ConfigurationProperties("swagger.publish")
 public class PublishSwaggerProperties {
 

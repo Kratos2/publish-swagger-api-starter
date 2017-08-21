@@ -1,5 +1,10 @@
 package com.mrk.apistats.model;
 
+/**
+ * 
+ * @author Mr.K
+ *
+ */
 public class SwaggerPublish {
 
 	private String url;
