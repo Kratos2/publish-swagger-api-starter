@@ -58,7 +58,7 @@ public class EnablePublishSwaggerConfiguration implements ApplicationListener<Ap
 			HttpEntity<String> requestBody = new HttpEntity<String>(json, headers);
 			restTemplate.postForObject(publishUrl, requestBody, String.class);
 		} catch (Throwable t) {
-			LOG.error("Failed to publish swagger API", t);
+			LOG.error("Failed to publish swagger API");
 		}
 	}
 }
